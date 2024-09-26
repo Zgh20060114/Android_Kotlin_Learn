@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--android:id是给当前
+的元素定义一个唯一的标识符，之后可以在代码中对这个元素进行操作
+match_parent表示让当前元素和父元素一样宽
+wrap_content表示当前元素的高度只要能刚好包含里面的
+内容就行
+android:text指定了元素中显示的文字内容-->
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button 1"
+    />
+
+</LinearLayout>
